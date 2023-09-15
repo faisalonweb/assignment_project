@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .card {
+    .grid-cls {
+      .grid-cls-item {
+        .main-icon {
+          display: none;
+        }
+      }
+    }
+
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
