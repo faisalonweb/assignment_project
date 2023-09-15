@@ -333,7 +333,13 @@ const ItemDetail = () => {
               Secure 256-bit SSL encryption.
             </Typography>
             <Divider orientation="vertical" variant="middle" flexItem />
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
               <Box>
                 <img src={group6} alt="logo" height={15} width={15} />
               </Box>
